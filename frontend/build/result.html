@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result-card">
+            <h2>Final Prediction: {{ result.final_prediction }}</h2>
+            <div class="model-predictions">
+                <h3>Individual Model Predictions:</h3>
+                <ul>
+                    {% for model, prediction in result.predictions.items() %}
+                    <li><strong>{{ model }}:</strong> {{ prediction }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <a href="/" class="back-btn">Check Again</a>
+    </div>
+</body>
+</html>
