@@ -97,4 +97,5 @@ This project demonstrates how to build a disease prediction system using machine
    ```bash
    pip install -r requirements.txt
    ```
-4. 
+4. **Set up the Kaggle API:**
+   - Place your kaggle.json file in the root directory or in ~/.kaggle/ with appropriate permissions.
