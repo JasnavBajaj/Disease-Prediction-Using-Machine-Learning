@@ -98,4 +98,23 @@ This project demonstrates how to build a disease prediction system using machine
    pip install -r requirements.txt
    ```
 4. **Set up the Kaggle API:**
-   - Place your kaggle.json file in the root directory or in ~/.kaggle/ with appropriate permissions.
+   - Place your `kaggle.json` file in the root directory or in `~/.kaggle/` with appropriate permissions.
+
+## Usage
+
+### Model Training & Prediction Notebook
+
+1. Open `disease-prediction-using-machine-learning.ipynb` in Jupyter Notebook or JupyterLab.
+2. Run the cells sequentially to:
+   - Download and extract the dataset.
+   - Preprocess data and visualize distributions.
+   - Train and evaluate machine learning models.
+   - Save the trained models and additional data (e.g., symptom index) using `joblib`.
+
+### FastAPI Backend
+1. Navigate to the directory containing `main.py`.
+2. Start the FastAPI server using `uvicorn`:
+   ```bash
+   uvicorn main:app --reload
+   ```
+4. The API will be available at http://127.0.0.1:8000.
