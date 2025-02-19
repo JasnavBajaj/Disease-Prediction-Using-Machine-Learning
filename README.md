@@ -169,4 +169,4 @@ This project is licensed under the MIT License.
 
 
 
-**For any questions or issues, please open an issue on the repository or contact `bjasnav@gmail.com`.
+**For any questions or issues, please open an issue on the repository or contact `bjasnav@gmail.com`.**
