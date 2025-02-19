@@ -99,6 +99,7 @@ This project demonstrates how to build a disease prediction system using machine
 4. **Set up the Kaggle API:**
    - Place your `kaggle.json` file in the root directory or in `~/.kaggle/` with appropriate permissions.
 
+---
 ## Usage
 
 ### Model Training & Prediction Notebook
@@ -135,6 +136,8 @@ This project demonstrates how to build a disease prediction system using machine
    
 Note: Ensure that the API base URL in `symptomChecker.js` matches your backend URL.
 
+---
+
 ## API Endpoints
 
 - GET `/`
@@ -159,14 +162,19 @@ Note: Ensure that the API base URL in `symptomChecker.js` matches your backend U
   "final_prediction": "Disease A"
   }
   ```
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
+
+---
 
 ## Acknowledgments
 - Thanks to Kaggle for providing the dataset.
 - Special mention to the developers of FastAPI and React.
 
-
+---
 
 **For any questions or issues, please open an issue on the repository or contact `bjasnav@gmail.com`.**
