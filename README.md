@@ -17,7 +17,6 @@ An end-to-end disease prediction system that leverages multiple machine learning
   - [FastAPI Backend](#fastapi-backend)
   - [React Frontend](#react-frontend)
 - [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -151,4 +150,23 @@ Note: Ensure that the API base URL in `symptomChecker.js` matches your backend U
   "symptoms": "itching,skin rash,nodal skin eruptions"
   }
   ```
+  Response Example:
+  ```json
+  {
+  "rf_model_prediction": "Disease A",
+  "naive_bayes_prediction": "Disease A",
+  "svm_model_prediction": "Disease B",
+  "final_prediction": "Disease A"
+  }
+  ```
+## License
 
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- Thanks to Kaggle for providing the dataset.
+- Special mention to the developers of FastAPI and React.
+
+
+
+**For any questions or issues, please open an issue on the repository or contact `bjasnav@gmail.com`.
