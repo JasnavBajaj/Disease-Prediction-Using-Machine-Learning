@@ -149,6 +149,6 @@ Note: Ensure that the API base URL in `symptomChecker.js` matches your backend U
   ```json
   {
   "symptoms": "itching,skin rash,nodal skin eruptions"
-}
-```
+  }
+  ```
 
