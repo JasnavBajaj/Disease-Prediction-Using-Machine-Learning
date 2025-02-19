@@ -87,3 +87,9 @@ This project demonstrates how to build a disease prediction system using machine
    ```bash
    git clone https://github.com/yourusername/disease-prediction-using-machine-learning.git
    cd disease-prediction-using-machine-learning
+   ```
+2. **Set up a Python virtual environment (optional but recommended):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows use: venv\Scripts\activate
+   ```
