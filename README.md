@@ -112,9 +112,43 @@ This project demonstrates how to build a disease prediction system using machine
    - Save the trained models and additional data (e.g., symptom index) using `joblib`.
 
 ### FastAPI Backend
+
 1. Navigate to the directory containing `main.py`.
 2. Start the FastAPI server using `uvicorn`:
    ```bash
    uvicorn main:app --reload
    ```
-4. The API will be available at http://127.0.0.1:8000.
+3. The API will be available at http://127.0.0.1:8000.
+
+
+### React Frontend
+
+1. Navigate to the React app directory (if the frontend is in a separate folder, e.g., `/frontend`).
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. The frontend will be available at http://localhost:3000.
+   
+Note: Ensure that the API base URL in `symptomChecker.js` matches your backend URL.
+
+## API Endpoints
+
+- GET `/`
+  Returns a welcome message to verify that the API is running.
+  
+- GET `/symptoms`
+  Returns a list of available symptoms used by the prediction models.
+
+- POST `/predict`
+  Request Body Example:
+  ```json
+  {
+  "symptoms": "itching,skin rash,nodal skin eruptions"
+}
+```
+
